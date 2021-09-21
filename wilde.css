@@ -1,0 +1,30 @@
+#speech{
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;}
+    
+    #name{
+        color: red;
+    }
+    
+    #stage-direction{
+        background-color:light green;
+        color: black;
+        font-size: 18px;
+        font-family: sans-serif;
+    }
+    
+    #stage-direction:hover{
+        background-color: rgb(8, 110, 5);
+        color:greenyellow;
+    }
+
+    .firstcitizen{
+        color:rgb(60, 0, 128);
+    }
+    .secondcitizen{
+        color: rgb(122, 253, 0);
+    }
+    .thirdcitizen{
+        color: rgb(255, 0, 0);
+    }

@@ -54,3 +54,21 @@ tr:nth-child(even){
 .thirdcitizen:hover{
     text-shadow: 2px 3px 4px violet;
 }
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+li a {
+    display: block;
+    padding: 8px;
+    background-color: violet;
+}
+  ul.navbar-vertical a:hover{
+      background-color: yellow;
+  }

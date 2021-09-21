@@ -28,3 +28,29 @@
     .thirdcitizen{
         color: rgb(255, 0, 0);
     }
+
+    table{border: 1px solid black;
+        padding: 20px;
+        margin: 30px;
+    }
+table.collapsing{
+    border-collapse: collapse;
+}
+
+td,th{border: solid 2px;
+text-align: left;
+}
+
+tr:nth-child(even){
+    background-color:yellowgreen;
+}
+
+.firstcitizen:hover{
+    text-shadow: 2px 3px 4px violet;
+}
+.secondcitizen:hover{
+    text-shadow: 2px 3px 4px violet;
+}
+.thirdcitizen:hover{
+    text-shadow: 2px 3px 4px violet;
+}

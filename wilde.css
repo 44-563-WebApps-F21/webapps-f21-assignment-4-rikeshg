@@ -21,12 +21,15 @@
 
     .firstcitizen{
         color:rgb(60, 0, 128);
+        margin-left: 25px;
     }
     .secondcitizen{
         color: rgb(122, 253, 0);
+        margin-left: 25px;
     }
     .thirdcitizen{
         color: rgb(255, 0, 0);
+        margin-left: 25px;
     }
 
     table{border: 1px solid black;
@@ -71,4 +74,31 @@ li a {
 }
   ul.navbar-vertical a:hover{
       background-color: yellow;
+      
   }
+  #content {
+    position: relative;
+}
+#content img.ribbon {
+    position: absolute;
+    top: -800px;
+    right: 150px;
+    height: 600px;
+    width: 600px;
+}
+#content img.ribbon2{
+    position: absolute;
+    top: -200px;
+    right: 250px;
+    height: 600px;
+    width: 600px;
+}
+.icon:before{
+    content: '';
+    background:url(mike-icon-18.jpg);
+    background-size:cover;
+    position:absolute;
+    width:30px;
+    height:20px;
+    margin-left:-10px;
+}
